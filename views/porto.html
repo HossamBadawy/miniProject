@@ -1,0 +1,405 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Portfolio a Personal Category Flat Bootstarp responsive Website Template| Home :: w3layouts</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Portfolio  Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style_data_form.css" rel='stylesheet' type='text/css' media="all" />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/styleport.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<!---- start-smoth-scrolling---->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+</script>
+<!----webfonts--->
+<link href='http://fonts.googleapis.com/css?family=Raleway:200,400,300,600,500,900,700,100,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+<!---//webfonts--->
+<!------ light-box-script ----->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		$('.about-grid a').Chocolat({linkImages:false});
+	});
+</script>
+<!------ light-box-script ----->
+</head>
+<body>	
+	<!-- container -->
+		<!-- header -->
+		<div id="home" class="header">
+			<div class="container">
+				<!-- -->
+				<div class="nav-icon">
+                                    <br>
+                                    <br>
+                                  
+                                    <ul>	
+                                    <h2><a class="right_bt" href="index.html">Log out</a></h2>
+                                    </ul>
+				</div>
+				 <div class="box" id="box">
+					 <div class="box_content">        					                         
+						<div class="box_content_center">
+						 	<div class="form_content">
+								<div class="menu_box_list">
+									<ul>
+										<li><a class="right_bt" href="#home">Log out</a></li>
+										<li><a class="scroll" href="#about">About</a></li>
+										<li><a class="scroll" href="#services">Services</a></li>
+										<li><a class="scroll" href="#port">portfolio</a></li>
+										<li><a class="scroll" href="#blog">Blog</a></li>
+										<li><a class="scroll" href="#contact">Contact</a></li>
+										
+									</ul>
+								</div>
+								<a class="boxclose" id="boxclose"> <span> </span></a>
+							</div>                                  
+						</div> 	
+					</div> 
+				</div>    
+				<!-- script-for-box -->
+				
+				<!-- script-for-box -->
+				<!----->
+				<!-- banner-info -->
+
+				
+
+
+				<div class="banner-info text-center">
+					<img src="/image.png" class="img-responsive" alt=""/>
+					<h1><%=first_name%> <%=last_name%></h1>
+					<p><%=quote%></p>
+				
+				</div>
+
+				<script>
+				    $(document).ready(
+				     testSSO(){
+ 			var image = document.getElementById("profilepic");
+ 			if(image.value == null || image.value == ''){
+  			alert("inside if");
+  			image.value = ".Uploads/avatar.png";
+ 			}
+
+ 		}
+				    );
+				</script>
+				<!-- banner-info -->
+			</div>
+		</div>
+		<!-- /header -->
+		<!-- about -->
+		<div id="about" class="about">
+			<div class="container">
+				<!-- head-section -->
+				<div class="head-section text-center">
+					<h2>About Me</h2>
+					<span></span>
+				</div>
+				<!-- head-section -->
+				<!-- about-grids -->
+				<div class="about-grids">
+					<div class="col-md-6 about-left-grid">
+						<p><%=about%></p>	
+					</div>
+					
+				</div>
+				<!-- about-grids -->
+			</div>
+		</div>
+		<!-- about 
+  
+  <!-- about -->
+		<div id="about" class="about">
+			<div class="container">
+				<!-- head-section -->
+				<div class="head-section text-center">
+					<h2>Some of my works</h2>
+					<span></span>
+				</div>
+				<!-- head-section -->
+				<!-- about-grids -->
+				<div class="about-grids">
+					<div class="col-md-6 about-left-grid">
+						<h3>Links:</h3>
+						
+						<% for(var i=1; i< links.length+1; i++){ %>
+
+						<a href=" <%= links[i] %> "> <p>Link <%= i %></p>  </a>
+
+						<% } %>
+						
+
+
+						</ul>
+						
+					</div>
+					
+				</div>
+				<!-- about-grids -->
+			</div>
+		</div>
+		<!-- about -->
+		<!---pop-up-box---->
+				<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+				<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all"/>
+				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+				<!---//pop-up-box---->
+				<div id="small-dialog" class="mfp-hide">
+					<iframe src="//player.vimeo.com/video/38584262"> </iframe>
+				</div>
+				 <script>
+						$(document).ready(function() {
+						$('.popup-with-zoom-anim').magnificPopup({
+							type: 'inline',
+							fixedContentPos: false,
+							fixedBgPos: true,
+							overflowY: 'auto',
+							closeBtnInside: true,
+							preloader: false,
+							midClick: true,
+							removalDelay: 300,
+							mainClass: 'my-mfp-zoom-in'
+						});
+																						
+						});
+				</script>								  
+			<!----//fea-video---->
+		
+		<!-- portfolio -->
+		<div id="port" class="portfolio">
+			<div class="container">
+				<!-- head-section -->
+				<div class="head-section text-center">
+					<h2>Portfolio</h2>
+					<span></span>
+				</div>
+				<!-- /head-section -->
+				<!-- portfolio-grids -->
+				<div class="portfolio-grids">
+					<div class="portfolio-grid about-grid">
+						<a href="/image1.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image1.png" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                               
+		                      </div>
+                            </a> </div>
+                    </div>
+					<div class="portfolio-grid about-grid">
+						<a href="/image2.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image2.png"" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                                
+		                      </div>
+                            </a> </div>
+                    </div>
+					<div class="portfolio-grid about-grid">
+						<a href="/image3.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image3.png" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                            
+		                      </div>
+                            </a> </div>
+                    </div>
+					<div class="portfolio-grid about-grid">
+						<a href="/image4.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image4.png" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                               
+		                      </div>
+                            </a> </div>
+                    </div>
+					<div class="portfolio-grid about-grid">
+						<a href="/image5.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image5.png" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                                
+		                      </div>
+                            </a> </div>
+                    </div>
+					<div class="portfolio-grid about-grid">
+						<a href="/image6.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image6.png" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                              
+		                      </div>
+                            </a> </div>
+                    </div>
+					<div class="portfolio-grid about-grid">
+						<a href="/image7.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image7.png" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                               
+		                      </div>
+                            </a> </div>
+                    </div>
+					<div class="portfolio-grid about-grid">
+						<a href="/image8.png" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="/image8.png" width="331px" height="208px" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/hover-icon.png" alt=""/></div>
+                                <h3>Product Design</h3>
+                               
+		                      </div>
+                            </a> </div>
+                    </div>
+				</div>
+				<!-- portfolio-grids -->
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				&nbsp;
+				<br>
+				<br>
+				<br>
+				<br>
+				<br>
+				
+
+
+				<div id="about" class="about">
+			<div class="container">
+				<!-- head-section -->
+				<div class="head-section text-center">
+					<h2>Add links and screenshots to your portfolio</h2>
+					<span></span>
+				</div>
+				<!-- head-section -->
+
+					<!-- about-grids -->
+			<div class="about-grids">
+					<div class="col-md-6 about-left-grid">
+						<h3>Change your display picture:</h3>
+				<form method="POST" enctype="multipart/form-data" action="/upload">
+    			<input type="file" name="file">
+   				 <input type="submit" value="Submit">
+				</form>
+
+				</div>
+				</div>
+
+				&nbsp;
+						&nbsp;
+						&nbsp;
+		<!-- about-grids -->
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+				<!-- about-grids -->
+				<div class="about-grids">
+					<div class="col-md-6 about-left-grid">
+						<h3>Add more Links:</h3>
+						&nbsp;
+						&nbsp;
+						&nbsp;
+						<form action="/post_link" method="POST">
+						<div class="form-control">	
+						<input type="text" id="email" name="link" placeholder="http:\\"" title="Please enter a Valid Email Address" required="">
+
+						<div class="content-wthree4">	
+						<div class="form-control">
+						<input type="submit" class="register" value="Submit">
+						</div></div>
+						</form>
+				</div>
+			</div>
+					<br>
+					<br>
+					<br>
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					&nbsp;
+					<span></span>
+				&nbsp;
+						&nbsp;
+						&nbsp;
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+						<br>
+
+						<div class="about-grids">
+					<div class="col-md-6 about-left-grid">
+						<h3>Add screenshots to your portfolio:</h3>
+				<form method="POST" enctype="multipart/form-data" action="/upload1">
+				
+    			<input type="file" name="file1">
+    			
+    			 <input type="submit" value="Submit">
+</form>
+			</div>
+		</div>
+			</div>
+		</div>
+		<!-- /portfolio -->
+		
+		
+		
+									<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+		</div>
+		<!-- /footer -->
+	<!-- /container -->
+</body>
+</html>
+
